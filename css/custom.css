@@ -287,7 +287,7 @@ h6 { font-size: 1em; }
 .project-popup .project-source {
   display: inline-block;
   text-transform: capitalize;
-  background: transparent;
+  background: #333;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -409,7 +409,7 @@ h6 { font-size: 1em; }
 /* Close button on project popup */
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .mfp-close {
   text-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
-  background: transparent;
+  background: #333;
   color: #fff;
 }
 
@@ -1177,10 +1177,10 @@ h6 { font-size: 1em; }
 
 .main-content#about .inner-content .content #personal-info .profile ul li .value {
   color: #a8a8a8;
-  word-wrap: break-word;
+  /* word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
-  word-break: break-word;
+  word-break: break-word; */
   overflow: hidden;
 }
 
@@ -4509,4 +4509,17 @@ h6 { font-size: 1em; }
     letter-spacing: 0.5em;
     font-size: 0.9em;
   }
+}
+
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+*::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background: #666; 
 }
